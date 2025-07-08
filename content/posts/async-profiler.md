@@ -1,4 +1,9 @@
-From Developer Tool to Production Asset: Our Journey with Async Profiler
+---
+title: "From Developer Tool to Production Asset: Our Journey with Async Profiler"
+date: 2025-07-01
+draft: false
+tags: ["AsyncProfiler", "JVM", "JFR", "ProductionDebugging", "PerformanceEngineering", "Observability"]
+---
 
 When we created Upsolver, our goal was to build a high-performance, headless big data ELT tool. To achieve this, we deliberately chose a monolithic architecture—and we're not ashamed of it. While monoliths come with trade-offs, they gave us the performance and control we needed early on.
 
@@ -63,5 +68,3 @@ model (Pay per GB processed) instead of a compute based model (pay per Core * Ti
 that aligned the customer’s interest in reducing compute costs with our own engineering 
 goals to optimize for less compute resources, so eventually we took JFR dumps every few weeks
 in order to see what's left to optimize and do that.
-
-#AsyncProfiler #JVM #JFR #ProductionDebugging #PerformanceEngineering #Observability
