@@ -26,6 +26,8 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
+  [services.googleAnalytics]
+    id = 'G-91MCE2BZS3'
 
 [caches]
   [caches.images]
